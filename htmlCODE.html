@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Add Todo:</h2>
+    <input type="text" id="todoInput" placeholder="Enter todo" />
+    <button onclick="addTodo()" id="addBtn">ADD</button>
+    <br /><br />
+    <label><input type="checkbox" id="showFinished" checked onchange="renderTodos()"> Show Finished</label>
+    <h3>Your Todos:</h3>
+    <div id="todoList"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
