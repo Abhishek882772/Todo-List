@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+  background-color: #f3f0ff;
+  padding: 20px;
+}
+
+.container {
+  background-color: #d8b4fe;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.todo {
+  background-color: #e9d5ff;
+  padding: 10px;
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.btn {
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: #7c3aed;
+  color: white;
+}
+
+.btn-delete {
+  background-color: #dc2626;
+  color: white;
+}
+
+input[type="text"] {
+  padding: 6px;
+  width: 60%;
+  border-radius: 8px;
+  border: 1px solid gray;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.2);
+}
